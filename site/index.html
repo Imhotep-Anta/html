@@ -1,19 +1,20 @@
-<!DOCTYPE html>
-<html lang="fr">
+<!DOCTYPE html> 
+<!-- ouverture de la balise HTML -->
+<html lang="fr"> <!-- detection de la langue -->
 
 <head>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8"> <!-- detection des caractères spéciaux pour la police -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- reponsive  -->
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Cabinet de Psychologie</title>
+  <title>Cabinet de Psychologie</title> <!-- balise titre -->
 
-  <!-- Bootstrap Core CSS -->
+  <!-- lien pour le style CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Custom Fonts -->
+  <!-- lien pour les fonts -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
   <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
@@ -23,10 +24,10 @@
 
 </head>
 
-<body id="page-top">
+<body id="page-top"> <!-- balise body du corps de la page -->
 
-  <!-- Navigation -->
-  <nav id="sidebar-wrapper">
+  <!-- Balise pour le menu -->
+  <nav id="sidebar-wrapper"> <!-- creation de class pour identification dans le css -->
    <!-- <ul class="sidebar-nav">
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#page-top">Home</a>
@@ -44,17 +45,20 @@
         <a class="js-scroll-trigger" href="#contact">Contact</a>
       </li>
     </ul>-->
-	  <ul id=menu>
-		<li class="sidebar-nav-item" ><a class="js-scroll-trigger" href="#page-top"> Home</li>
-		<li class="sidebar-nav-item" ><a class="js-scroll-trigger" href="#services">Services</li>
-		<li class="sidebar-nav-item" ><a class="js-scroll-trigger" href="#contact">Contact</li>
+    <!-- Balise pour les listes des onglets du menu -->
+	  <ul id=menu> <!-- creation de class pour identification dans le css -->
+		<li class="sidebar-nav-item" ><a class="js-scroll-trigger" href="#page-top"> Home</li> <!-- creation de class pour identification dans le css / le tout inbriquer dans un lien -->
+		<li class="sidebar-nav-item" ><a class="js-scroll-trigger" href="#services">Services</li> <!-- creation de class pour identification dans le css / le tout inbriquer dans un lien -->
+		<li class="sidebar-nav-item" ><a class="js-scroll-trigger" href="#contact">Contact</li> <!-- creation de class pour identification dans le css / le tout inbriquer dans un lien -->
 	  </ul>
+	  <!-- fin de la balise pour les listes des onglets du menu -->
   </nav>
+<!-- fin de la balise pour le menu -->
 
-  <!-- Header -->
+  <!--  balise Header pour l'entête de la page --> 
   <header class="masthead d-flex">
     <div class="container text-center my-auto">
-      <h1 class="mb-1">Cabinet de Psychologie</h1>
+      <h1 class="mb-1">Cabinet de Psychologie</h1> <!-- creation de class pour identification dans le css  inbriquer dans un une balise de titre h1-->
       <h3 class="mb-5">
         <em>Dr. Jane Doe & Dr. Dupont</em>
       </h3>
@@ -62,8 +66,9 @@
     </div>
     <div class="overlay"></div>
   </header>
-	 <!-- Callout -->
-  <section class="callout">
+
+	 <!-- Callout --> 
+  <section class="callout"> <!-- ouverture d'une section avec les balise "section" et "div" creation de class pour identification dans le css -->
     <div class="container text-center">
       <h2 class="mx-auto mb-5"> Le parcours de vos 
         <em>psys</em>
@@ -71,6 +76,7 @@
       <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">Download Now!</a>
     </div>
   </section>
+  <!-- fin de la section-->
   <!-- Services -->
   <section class="content-section bg-primary text-white text-center" id="services">
     <div class="container">
@@ -83,7 +89,7 @@
             <i class="icon-screen-smartphone"></i>
           </span>
           <h4>
-            <strong>Consultations psychologiques pour adolescents et adultes</strong>
+            <strong>Consultations psychologiques pour adolescents et adultes</strong> <!-- balise attestant de l'importance de l'element à l'intérieur -->
           </h4>
         </div>
         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
@@ -126,14 +132,16 @@
 
   <!-- Map -->
   <section id="contact" class="map">
+  	<!-- ouverture d'un iframe insertion d'une localisation -->
     <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2707.7469822898724!2d-1.5859614843814673!3d47.26065067916322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4805edbf8b238ab1%3A0xe9438b24ce74ae11!2s8%20Boulevard%20Mend%C3%A8s%20France%2C%2044700%20Orvault!5e0!3m2!1sfr!2sfr!4v1573117652734!5m2!1sfr!2sfr"></iframe>
+    <!--  fin de l' iframe insertion d'une localisation -->
     <br/>
     <small>
       <a href="https://goo.gl/maps/939Hcmn7FNAwzL7v5"></a>
     </small>
   </section>
 
-  <!-- Footer -->
+  <!-- ouverture de la section Footer pied de page --> 
   <footer class="footer text-center">
     <div class="container">
       <ul class="list-inline mb-5">
@@ -156,7 +164,7 @@
       <p class="text-muted small mb-0">Copyright &copy; Your Website 2019</p>
     </div>
   </footer>
-
+<!-- ouverture de la section Footer pied de page --> 
   <!-- Scroll to Top Button-->
   <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
     <i class="fas fa-angle-up"></i>
